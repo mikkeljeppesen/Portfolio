@@ -1,0 +1,205 @@
+/*      standard css        */
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+    margin: 0;  
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #002ca3;
+    padding: 5px 10px;
+}
+
+
+/*       Header css       */ 
+
+header {
+    background-color: #F0F0F0;
+}
+
+.sites a:hover {
+     background-color: white;
+}
+
+.selected {
+    background-color: white;
+}
+
+.sites a {
+    us: 2px;
+}
+
+/*      main css        */
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter a {
+    border: 2px solid #002ca3;
+    padding: 20px;
+}
+
+.filterselected {
+    background-color: #002ca3;
+    color: white;
+}
+
+.filter a:hover {
+    background-color: #002ca3;
+    color: white;
+}
+
+.grid-system {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas:
+    'col1, col2, col3';
+}
+
+col1 {
+    grid-area: col1;
+}
+
+col2 {
+    grid-area: col2;
+}
+
+col3 {
+    grid-area: col3;
+}
+
+.info {
+    height: 100px;
+    width: 350px;
+    background-color: #F0F0F0;
+    margin-bottom: 16px;
+    border: 1px solid rgb(219, 219, 219); 
+}
+
+p {
+    padding-top: 10px;
+    margin: 0;
+    color: #002ca3;
+    font-weight: 500;
+}
+
+.beskrivelse {
+    color: darkgray;
+    font-size: 1em;
+}
+
+.colorgrey {
+    color: darkgrey
+}
+
+.grid-holder {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 250px, 1fr ;
+    grid-template-areas:
+    'article info-a';
+}
+
+.info a {
+    grid-area: info-a;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.info i:hover {
+    color: white;
+    -webkit-transition: 0.2s ease-in;
+}
+
+article {
+    grid-area: article;
+}
+
+/*      paginering css        */
+
+.pages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pages a {
+    border: 1px solid #002ca3;
+    font-weight: 500;
+}
+
+.pages a:hover {
+    background-color:  #F0F0F0;
+    transition: 0.2s;
+}
+
+.active {
+   background-color: #002ca3;
+   color: white;;
+   border: none;
+}
+
+.col1-favorit {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+} 
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+
+.col1-tidslinje {
+    display: flex;
+}
+
+.day {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.grey {
+    color: darkgray;
+}
+
+.blue {
+    color: #002ca3;
+}
+
+
+
+
